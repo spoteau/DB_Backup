@@ -29,7 +29,7 @@ namespace DB_Backup
         {
             try
             {
-                sqlConn = new SqlConnection("Data Source=POTEAU-PC\\SQLSERVER_2016;Initial Catalog=Master;User ID=lpqc;Password=jesusestsauveur");
+                sqlConn = new SqlConnection("Data Source=ComputerName\\SQLSERVER Instance;Initial Catalog=Master;User ID=username;Password=passw");
                 sqlServer = new Server(new ServerConnection(sqlConn));
 
                 //dbList = new List<Database>();
